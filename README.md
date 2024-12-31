@@ -22,7 +22,7 @@ To guide the analysis, the following questions were crafted:
 - Created the following visualizations and summaries:  
   - **Summary Interactive Table**: For a quick data overview (using the `DT` package).  
   - **Scatterplot with Smoothing**: Showcasing relationships between days of the week, bike usage frequency, and average ride time (in minutes).  
-  - **Heat Map**: Highlighting the popularity of each ride type across Chicago locations.  
+  - **Heat Map**: Highlighting the popularity of each ride type across Chicago locations (limited to locations with count > 10,000).  
 
 **See the `bikeShare.R` script for details on data cleaning and visualization steps.**  
 
